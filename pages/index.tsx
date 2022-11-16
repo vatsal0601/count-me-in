@@ -1,18 +1,24 @@
-import { Head } from "@components";
+import { Head, SmileSVG } from "@components";
 
 const Home = () => {
   return (
     <>
       <Head />
-      <main>
-        <h1>Count Me In</h1>
-        <button className="group relative px-6 py-2">
-          <span className="absolute inset-0 h-full w-full translate-x-1 translate-y-1 transform bg-black transition duration-300 ease-out group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
-          <span className="absolute inset-0 h-full w-full border-2 border-black bg-white group-hover:bg-black"></span>
-          <span className="relative text-black group-hover:text-white">
-            hover effect
-          </span>
-        </button>
+      <main className="container pt-24 lg:pt-36">
+        <section>
+          <h1 className="mx-auto max-w-4xl text-center text-4xl font-bold text-pink-brand lg:text-6xl">
+            <span>Got goals to achieve? We will keep you on track.</span>
+            <SmileSVG className="ml-2 inline h-8 w-8 lg:ml-4 lg:h-14 lg:w-14" />
+          </h1>
+          <p>
+            Find the right group for yourself, keep each other accountable and
+            achieve your goals!
+          </p>
+          <div>
+            <button>Get Started!</button>
+            <span>(You can click this. Trust me!)</span>
+          </div>
+        </section>
       </main>
     </>
   );

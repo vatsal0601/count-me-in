@@ -20,6 +20,17 @@ module.exports = {
       fontFamily: {
         sans: ["Poppins", ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        pink: {
+          brand: "#FF005C",
+        },
+        blue: {
+          twitter: "#00D1FF",
+        },
+        amber: {
+          brand: "#FFF7E4",
+        },
+      },
     },
   },
   plugins: [require("prettier-plugin-tailwindcss")],
