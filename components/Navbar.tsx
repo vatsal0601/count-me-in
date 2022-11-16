@@ -29,7 +29,7 @@ const Navbar: FC = () => {
         </div>
         <button className="group relative">
           <span className="absolute inset-0 h-full w-full translate-x-1 translate-y-1 transform rounded-full bg-neutral-900"></span>
-          <span className="relative inline-flex items-center space-x-2 rounded-full border-2 border-neutral-900 bg-blue-twitter px-4 py-2 text-xl text-white transition-transform group-active:translate-x-1 group-active:translate-y-1">
+          <span className="relative inline-flex items-center space-x-2 rounded-full border-2 border-neutral-900 bg-blue-twitter px-4 py-2 text-xl font-bold text-white transition-transform group-active:translate-x-1 group-active:translate-y-1">
             <TwitterSVG className="h-5 w-5 lg:h-7 lg:w-7" />
             <span>Log In!</span>
           </span>
